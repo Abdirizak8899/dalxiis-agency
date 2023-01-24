@@ -236,4 +236,21 @@ footer{
         height: 300px;
 
     }
+    .container{
+        padding: 0;
+    }
+    .card{
+        margin-right: 0;
+        margin-bottom:0;
+        position: relative;
+        left: 20px;
+    }
+    .cards{
+        align-items: center;
+        justify-content: center;
+    }
+    .h-img img{
+        position: relative;
+        left: 20px;
+    }
 }
