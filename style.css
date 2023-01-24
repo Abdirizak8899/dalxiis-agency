@@ -131,6 +131,7 @@ a i,button i{
     /* padding: 4px; */
     /* background-color: #31282c; */
     border-radius: 11px;
+    margin-bottom: 25px;
 }
 .h-img img{
     height: 400px;
@@ -211,4 +212,28 @@ footer{
 }
 .flow-us b a,.contact-info b a{
     color:#3587A4;
+}
+.intro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:900px){
+ .cards{
+    justify-content: center;
+ }   
+ .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+}
+@media(max-width:700px){
+    .h-img img{
+        width: 400px;
+        height: 300px;
+
+    }
 }
